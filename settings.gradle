@@ -1,0 +1,6 @@
+include ':livedata'
+include ':observablefield'
+include ':baseobservable'
+include ':app'
+project(':livedata').projectDir = new File(rootDir, 'livedata/')
+rootProject.name = "Jetpack"
